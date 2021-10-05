@@ -36,7 +36,7 @@ on-line grading service at [https://grading.656.mba](https://grading.656.mba).
 ## A working example
 
 Here
-is an example running online that passes all the tests: http://mvc.solutions.656.mba/
+is an example running online that passes all the tests: <http://mvc-app.solutions.656.mba/>.
 
 ## Tips
 
@@ -48,6 +48,7 @@ is an example running online that passes all the tests: http://mvc.solutions.656
    it, you'd type something like `./mvc` where `mvc` is the
    name of your binary/executable/program that was compiled (this can
    vary...yours is likely `mvc` because of the contents of the `go.mod` file).
+   Or, you could run `go run .`. Either way.
 1. The crux of this assignment is making the party attendees searchable.
    You'll do that work in the `attendeesHandler` likely, assuming you don't
    change my code too much. You'll want to look at the
@@ -68,7 +69,7 @@ is an example running online that passes all the tests: http://mvc.solutions.656
 
    ```
    heroku create
-   git push heroku master
+   git push heroku main
    ```
 
    It's a good thing to deploy early and often. That is, you can deploy
